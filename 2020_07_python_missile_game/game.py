@@ -17,14 +17,14 @@ pygame.display.set_caption("미사일 피하기") #게임이름
 display_font = pygame.font.Font(None , 30)
 
 #게임 이미지 불러오기
-background = pygame.image.load("D:\\1학업\\사회복무_법인공인인증서\\Python Workspace\\python game\\Python_Project\\Python_Project\\python_missile_game\\background.png")
+background = pygame.image.load("D:\\1학업\\사회복무_법인공인인증서\\Python Workspace\\python game\\Python_Project\\Python_Project\\2020_07_python_missile_game\\background.png")
 
-user = pygame.image.load("D:\\1학업\\사회복무_법인공인인증서\\Python Workspace\\python game\\Python_Project\\Python_Project\\python_missile_game\\user.png").convert()
+user = pygame.image.load("D:\\1학업\\사회복무_법인공인인증서\\Python Workspace\\python game\\Python_Project\\Python_Project\\2020_07_python_missile_game\\user.png").convert()
 user_size = user.get_rect().size
 user_width = user_size[0]
 user_height = user_size[1]
 
-enemy = pygame.image.load("D:\\1학업\\사회복무_법인공인인증서\\Python Workspace\\python game\\Python_Project\\Python_Project\\python_missile_game\\enemy.png").convert()
+enemy = pygame.image.load("D:\\1학업\\사회복무_법인공인인증서\\Python Workspace\\python game\\Python_Project\\Python_Project\\2020_07_python_missile_game\\enemy.png").convert()
 enemy_size = enemy.get_rect().size
 enemy_width = enemy_size[0]
 enemy_height = enemy_size[1]
