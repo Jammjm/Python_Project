@@ -11,7 +11,7 @@ display = pygame.display.set_mode(display_size)
 
 
 #게임타이틀
-pygame.display.set_caption("미사일 피하기") #게임이름
+pygame.display.set_caption("미사일피하기!") #게임이름
 
 #게임 폰트
 display_font = pygame.font.Font(None , 30)
