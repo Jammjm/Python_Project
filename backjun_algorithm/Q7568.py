@@ -23,5 +23,7 @@ for student_idx, student_info in enumerate(info):
     rank.append(student_rank + 1)
 
 
-print(rank)    
+print(rank) 
+
+#https://www.acmicpc.net/problem/7568
             
